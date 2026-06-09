@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:5000/predict/",
+    baseURL: "https://stock-price-predictor-c30c.onrender.com/predict/",
 });
 
 export default api;
